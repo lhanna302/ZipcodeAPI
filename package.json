@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "redis": "^4.0.6"
+  },
+  "name": "zipcodeapi",
+  "version": "1.0.0",
+  "description": "A simple API to retrieve city and county by zipcode",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ZipcodeAPI"
+  },
+  "author": "Laura Hanna",
+  "license": "ISC"
+}
