@@ -11,10 +11,10 @@ app.get('/', (req, res) =>{
    res.json({ message: "okay" });
 });
 
-app.use("/zipcodes/:id", zipcodeRouter); //sus
+app.use("/zipcodes", zipcodeRouter);
 app.use((err, req, res, next) =>{
     const statusCode = err.statusCode || 500;
-    console.err(err.message, err.stack);
+    console.error(err.message, err.stack);
     res.status(statusCode).json({ message: err.message });
     return;
 });
