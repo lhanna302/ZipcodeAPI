@@ -54,3 +54,4 @@ Things I would have done differently:
 - I would not have used relative pathing
 - I wrote integration tests instead of unit tests because I couldn't remember all the steps for mocking and I was running out of time.  I should have used `jest`, maybe.  Also, unfortunately, because the port is already tied up, the tests I have written don't actually work. 
 - I would have been consistent about `zipCode` vs `zipcode` vs `zip_code` etc
+- Username/password should 100% be environment variables.
